@@ -82,9 +82,9 @@ export default function TranscribeSection() {
             {/* YouTube Transcription */}
             <div className="space-y-2">
                 <label htmlFor="youtubeUrl" className="block font-medium text-gray-700">
-                    YouTube URL
+                    YouTube URL (Under Maintenance)
                 </label>
-                <input
+                {/*(<input
                     id="youtubeUrl"
                     type="text"
                     placeholder="https://www.youtube.com/watch?v=..."
@@ -98,7 +98,7 @@ export default function TranscribeSection() {
                     disabled={loading}
                 >
                     {loading ? "Processing..." : "Transcribe YouTube Video"}
-                </button>
+                </button> */}
             </div>
 
             <hr className="border-gray-300 my-6" />
